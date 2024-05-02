@@ -4,5 +4,5 @@ The application is almost similar to Instagram and has a beautiful user interfac
 
 
 # Screenshots
-# <img src="https://raw.githubusercontent.com/sdkarimi/blogclubs/main/screenshot/1.jpg" alt="screen_shot" width="150"/>  
-# <img src="https://raw.githubusercontent.com/sdkarimi/blogclubs/main/screenshot/2.jpg" alt="screen_shot" width="150"/> 
+# <img src="https://github.com/sdkarimi/blogclubs/blob/master/screenshot/1.jpg" alt="screen_shot" width="150"/>  
+# <img src="https://github.com/sdkarimi/blogclubs/blob/master/screenshot/2.jpg" alt="screen_shot" width="150"/> 

@@ -64,7 +64,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                           controller: _pageController,
                           itemBuilder: (context, index) {
                             return Padding(
-                              padding: const EdgeInsets.all(32),
+                              padding: const EdgeInsets.all(26),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
@@ -73,12 +73,12 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                                     style: themeData.textTheme.headlineMedium,
                                   ),
                                   const SizedBox(
-                                    height: 15,
+                                    height: 12,
                                   ),
                                   Text(
                                     items[index].description,
                                     style: themeData.textTheme.titleMedium!
-                                        .apply(fontSizeFactor: 0.9),
+                                        .apply(fontSizeFactor: 0.8),
                                   )
                                 ],
                               ),
@@ -118,18 +118,18 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
 
                               shape: MaterialStateProperty.all(
                                   RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(12))),
+                                      borderRadius: BorderRadius.circular(14))),
                               backgroundColor: MaterialStateProperty.all(
                                   themeData.colorScheme.primary),
                             ),
                             child: Padding(
                               padding: const EdgeInsets.symmetric(
-                                  vertical: 15, horizontal: 12),
+                                  vertical: 15, horizontal: 6),
                               child: Container(
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(16)),
                                 width: 56,
-                                height: 58,
+                                height: 56,
                                 child: Icon(
                                   page == items.length - 1
                                       ? CupertinoIcons.check_mark
